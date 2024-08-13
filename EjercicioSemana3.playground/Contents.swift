@@ -142,7 +142,7 @@ enum OperacionMatematica{
     case division
 }
 class OperadorMatematico{
-    static func realizarOperacion(a: Double, b: Double, operacion: OperacionMatematica) -> Double{
+    func realizarOperacion(a: Double, b: Double, operacion: OperacionMatematica) -> Double{
         switch operacion{
         case .suma:
             return a + b
@@ -163,14 +163,26 @@ class OperadorMatematico{
     }
 }
 
+var operadorMatematico = OperadorMatematico()
+var resultadoSuma = operadorMatematico.realizarOperacion(a: 10, b: 5, operacion: OperacionMatematica.suma)
+
+print (resultadoSuma)
+
+
+
+
+
+
+/*
 var resultadoSuma = OperadorMatematico.realizarOperacion(a: 10, b: 5, operacion: OperacionMatematica.suma)
 var resultadoResta = OperadorMatematico.realizarOperacion(a: 10, b: 5, operacion: OperacionMatematica.resta)
 var resultadoMultiplicacion = OperadorMatematico.realizarOperacion(a: 10, b: 5, operacion: OperacionMatematica.multiplicacion)
 var resultadoDivision = OperadorMatematico.realizarOperacion(a: 10, b: 5, operacion: OperacionMatematica.division)
+
 
 print("La suma es: \(resultadoSuma)")
 print("La resta es: \(resultadoResta)")
 print("La multiplicación es: \(resultadoMultiplicacion)")
 print("La division es: \(resultadoDivision)")
 
-
+ */
