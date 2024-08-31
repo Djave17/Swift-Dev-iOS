@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="InterfaceDesign2" customModuleProvider="target">
+            <connections>
+                <outlet property="topViewCollectionView" destination="z56-8d-B2u" id="CeU-pY-VM9"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descubre " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yBp-BE-lVg">
+                    <rect key="frame" x="16.666666666666671" y="59" width="130.33333333333331" height="59"/>
+                    <fontDescription key="fontDescription" name="NotoSansMyanmar-Bold" family="Noto Sans Myanmar" pointSize="27"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explora los mejores lugares de Granada " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Cm-vB-uoh">
+                    <rect key="frame" x="16" y="101" width="318" height="22"/>
+                    <fontDescription key="fontDescription" name="NotoSansMyanmar-Light" family="Noto Sans Myanmar" pointSize="16"/>
+                    <color key="textColor" red="0.65591354400000002" green="0.6713950971" blue="0.67294217140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="scrollableAxes" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="z56-8d-B2u">
+                    <rect key="frame" x="0.0" y="131" width="393" height="360"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="20" sectionInsetReference="layoutMargins" id="hFk-Xf-nCO">
+                        <size key="itemSize" width="375" height="360"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descubre mas destinos " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dM4-Vw-ypb">
+                    <rect key="frame" x="16" y="522" width="318" height="35"/>
+                    <fontDescription key="fontDescription" name="NotoSansMyanmar-Light" family="Noto Sans Myanmar" pointSize="16"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="x8Q-PQ-caH">
+                    <rect key="frame" x="0.0" y="551" width="393" height="233"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="4tm-OS-2zW">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explora " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTn-td-deS">
+                    <rect key="frame" x="16" y="484" width="107" height="59"/>
+                    <fontDescription key="fontDescription" name="NotoSansMyanmar-Bold" family="Noto Sans Myanmar" pointSize="27"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="z56-8d-B2u" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="3az-0j-P3G"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="5Cm-vB-uoh" secondAttribute="trailing" constant="59" id="7Am-a9-rqN"/>
+                <constraint firstItem="dM4-Vw-ypb" firstAttribute="trailing" secondItem="5Cm-vB-uoh" secondAttribute="trailing" id="9Tg-C9-wyu"/>
+                <constraint firstItem="dM4-Vw-ypb" firstAttribute="top" secondItem="z56-8d-B2u" secondAttribute="bottom" constant="31" id="C02-ib-uC8"/>
+                <constraint firstItem="x8Q-PQ-caH" firstAttribute="top" secondItem="cTn-td-deS" secondAttribute="bottom" constant="8" id="H8N-rt-iRE"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="yBp-BE-lVg" secondAttribute="trailing" constant="246" id="KeV-CC-xE8"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="dM4-Vw-ypb" secondAttribute="bottom" constant="261" id="O5T-aO-OgH"/>
+                <constraint firstItem="5Cm-vB-uoh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="PaD-RV-GFg"/>
+                <constraint firstAttribute="trailing" secondItem="z56-8d-B2u" secondAttribute="trailing" id="Qvf-3y-6SQ"/>
+                <constraint firstItem="5Cm-vB-uoh" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="42" id="Sby-GV-aC8"/>
+                <constraint firstItem="x8Q-PQ-caH" firstAttribute="leading" secondItem="z56-8d-B2u" secondAttribute="leading" id="fKZ-No-lLM"/>
+                <constraint firstItem="x8Q-PQ-caH" firstAttribute="trailing" secondItem="z56-8d-B2u" secondAttribute="trailing" id="gtp-dm-TwT"/>
+                <constraint firstItem="dM4-Vw-ypb" firstAttribute="leading" secondItem="cTn-td-deS" secondAttribute="leading" id="hSG-CE-U8o"/>
+                <constraint firstItem="dM4-Vw-ypb" firstAttribute="leading" secondItem="5Cm-vB-uoh" secondAttribute="leading" id="j0D-Pn-FsM"/>
+                <constraint firstItem="cTn-td-deS" firstAttribute="top" secondItem="z56-8d-B2u" secondAttribute="bottom" constant="-7" id="kj6-Ei-iAv"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="5Cm-vB-uoh" secondAttribute="bottom" constant="695" id="pfg-xT-ADW"/>
+                <constraint firstItem="yBp-BE-lVg" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="rXR-It-80F"/>
+                <constraint firstItem="cTn-td-deS" firstAttribute="top" secondItem="z56-8d-B2u" secondAttribute="bottom" constant="-7" id="sTm-bX-PJH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="x8Q-PQ-caH" secondAttribute="bottom" constant="34" id="ucZ-Lj-CsN"/>
+                <constraint firstItem="z56-8d-B2u" firstAttribute="top" secondItem="5Cm-vB-uoh" secondAttribute="bottom" constant="8" id="zOH-3r-cdJ"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="viewFlipsideBackgroundColor">
+            <color red="0.12156862745098039" green="0.12941176470588237" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

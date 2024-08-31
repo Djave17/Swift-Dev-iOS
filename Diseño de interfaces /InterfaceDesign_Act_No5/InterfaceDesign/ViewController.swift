@@ -9,12 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var myButtonMenu: UIButton!
     
     @IBOutlet weak var imagePerfil: UIImageView!
     
-    @IBOutlet weak var mybottonMenu: UIMenu!
-    
-    @IBOutlet weak var myMusicBotton: UIButton!
+    @IBOutlet weak var myMusicButton: UIButton!
     
     @IBOutlet weak var firstSongImage: UIImageView!
     
@@ -33,9 +32,9 @@ class ViewController: UIViewController {
         imagePerfil.layer.masksToBounds = true
         
         //Boton de musica
-        myMusicBotton.layer.cornerRadius = 15
-        myMusicBotton.layer.masksToBounds = true
-        
+        myMusicButton.layer.cornerRadius = 15
+        myMusicButton.layer.masksToBounds = true
+    
         //Imagen de la primera cancion
         firstSongImage.contentMode = .scaleAspectFill
         firstSongImage.image = UIImage(named: "LonelyDay")

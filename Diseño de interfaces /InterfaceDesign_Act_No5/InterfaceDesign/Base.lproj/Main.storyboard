@@ -123,6 +123,12 @@
                                         <color key="textColor" red="0.76051166402326187" green="0.78052512886597936" blue="0.78052512886597936" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fBi-cU-eTL">
+                                        <rect key="frame" x="76" y="92" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" red="0.13691190449999999" green="0.3657176224" blue="0.34991062589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.54208771544419543" blue="0.63653753221649478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -155,24 +161,6 @@
                                     <constraint firstAttribute="width" constant="80" id="k81-E0-dbS"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Listening to Lonely Day by System of a down " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aSb-FA-24M">
-                                <rect key="frame" x="80" y="497.00000000000006" width="196" height="49.666666666666686"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="49.666666666666629" id="7uE-nb-4Ih"/>
-                                    <constraint firstAttribute="width" constant="196" id="Loo-Nb-dMd"/>
-                                </constraints>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Album: Hypnotize - 2005" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ujF-2F-nEN">
-                                <rect key="frame" x="80" y="542" width="196" height="44"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="textColor" red="0.65591354400000002" green="0.6713950971" blue="0.67294217140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="voF-aK-aum">
                                 <rect key="frame" x="22" y="517" width="51" height="35"/>
                                 <state key="normal" title="Button"/>
@@ -187,24 +175,6 @@
                                     <constraint firstAttribute="width" constant="80" id="hwe-PA-bzi"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Listening to Supermercado by Mon Laferte" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0KZ-fl-aAJ">
-                                <rect key="frame" x="80" y="594" width="196" height="49.666666666666629"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="196" id="EbB-gU-OTJ"/>
-                                    <constraint firstAttribute="height" constant="49.666666666666629" id="SQX-iq-Byp"/>
-                                </constraints>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Album: 1940 Carmen" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pHJ-l8-h1l">
-                                <rect key="frame" x="80" y="639" width="196" height="44"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="textColor" red="0.65591354400000002" green="0.6713950971" blue="0.67294217140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufH-LC-pP0">
                                 <rect key="frame" x="22" y="614" width="51" height="35"/>
                                 <state key="normal" title="Button"/>
@@ -219,24 +189,6 @@
                                     <constraint firstAttribute="width" constant="80" id="Yis-Tc-6CJ"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Listening to Amsterdam  by Nothing but thieves" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gGT-4i-uiZ">
-                                <rect key="frame" x="80" y="691" width="196" height="49.666666666666629"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="49.666666666666629" id="3hD-pw-VE4"/>
-                                    <constraint firstAttribute="width" constant="196" id="TVN-bk-kUy"/>
-                                </constraints>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Album: Broken Machine (Deluxe)" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RZb-rI-hxb">
-                                <rect key="frame" x="80" y="736" width="196" height="44"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="textColor" red="0.65591354400000002" green="0.6713950971" blue="0.67294217140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JyB-FU-2BO">
                                 <rect key="frame" x="22" y="711" width="51" height="35"/>
                                 <state key="normal" title="Button"/>
@@ -244,54 +196,98 @@
                                     <color key="baseForegroundColor" red="0.75348805510000005" green="0.77331668809999998" blue="0.77331668809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Listening to Lonely Day by System of a down " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gYs-Do-Gnr">
+                                <rect key="frame" x="81" y="497" width="208" height="48"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Album: Hypotize - 2005" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fP-8O-Moe">
+                                <rect key="frame" x="81" y="536" width="208" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="208" id="c7s-DY-YMz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Listening to Supermercado by Mon Laferte" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mfw-iS-nZi">
+                                <rect key="frame" x="81" y="592" width="208" height="48"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Album: 1940 Carmen" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvf-iY-hHm">
+                                <rect key="frame" x="81" y="631" width="208" height="48"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Listening to Amsterdam by Nothing But Thieves" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TJE-TC-TjE">
+                                <rect key="frame" x="81" y="691" width="208" height="48"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Album: Broken Machine (Deluxe)  " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fiS-N0-Aiv">
+                                <rect key="frame" x="81" y="730" width="208" height="48"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="qOe-V0-Y0n" firstAttribute="leading" secondItem="gGT-4i-uiZ" secondAttribute="trailing" constant="21" id="1XS-3u-d5h"/>
-                            <constraint firstItem="0KZ-fl-aAJ" firstAttribute="leading" secondItem="ufH-LC-pP0" secondAttribute="trailing" constant="7" id="2vc-0t-Bve"/>
-                            <constraint firstItem="0KZ-fl-aAJ" firstAttribute="leading" secondItem="ujF-2F-nEN" secondAttribute="leading" id="35e-TT-kOo"/>
+                            <constraint firstItem="TJE-TC-TjE" firstAttribute="leading" secondItem="tvf-iY-hHm" secondAttribute="leading" id="02j-nv-Dl9"/>
+                            <constraint firstItem="Mfw-iS-nZi" firstAttribute="trailing" secondItem="tvf-iY-hHm" secondAttribute="trailing" id="39R-tH-hq9"/>
                             <constraint firstItem="Onf-JB-ez1" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="4hy-dC-x8z"/>
-                            <constraint firstItem="gGT-4i-uiZ" firstAttribute="leading" secondItem="pHJ-l8-h1l" secondAttribute="leading" id="6zK-vf-I3O"/>
+                            <constraint firstItem="heq-nE-aFV" firstAttribute="leading" secondItem="Mfw-iS-nZi" secondAttribute="trailing" constant="8" id="6o0-zf-tov"/>
                             <constraint firstItem="JyB-FU-2BO" firstAttribute="top" secondItem="ufH-LC-pP0" secondAttribute="bottom" constant="62" id="8aw-Oq-mno"/>
+                            <constraint firstItem="TJE-TC-TjE" firstAttribute="top" secondItem="tvf-iY-hHm" secondAttribute="bottom" constant="12" id="9Bb-Hg-fHu"/>
+                            <constraint firstItem="TJE-TC-TjE" firstAttribute="top" secondItem="qOe-V0-Y0n" secondAttribute="top" id="BLG-9P-uhx"/>
+                            <constraint firstItem="heq-nE-aFV" firstAttribute="top" secondItem="Onf-JB-ez1" secondAttribute="bottom" constant="17" id="D7d-yd-scG"/>
                             <constraint firstItem="0WA-2H-Gih" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ES2-zX-l78"/>
+                            <constraint firstItem="Mfw-iS-nZi" firstAttribute="leading" secondItem="tvf-iY-hHm" secondAttribute="leading" id="GOS-jW-Nbl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="heq-nE-aFV" secondAttribute="bottom" constant="144" id="Ggt-Cb-yC3"/>
-                            <constraint firstItem="0KZ-fl-aAJ" firstAttribute="top" secondItem="ujF-2F-nEN" secondAttribute="bottom" constant="8" id="GtY-JC-69i"/>
-                            <constraint firstItem="RZb-rI-hxb" firstAttribute="leading" secondItem="gGT-4i-uiZ" secondAttribute="leading" id="JC4-KI-3LU"/>
-                            <constraint firstItem="ujF-2F-nEN" firstAttribute="leading" secondItem="aSb-FA-24M" secondAttribute="leading" id="KxL-L1-PJj"/>
-                            <constraint firstItem="ujF-2F-nEN" firstAttribute="top" secondItem="0WA-2H-Gih" secondAttribute="bottom" constant="91" id="La2-XS-xBr"/>
+                            <constraint firstItem="TJE-TC-TjE" firstAttribute="trailing" secondItem="tvf-iY-hHm" secondAttribute="trailing" id="Gza-mz-Mxj"/>
+                            <constraint firstItem="fiS-N0-Aiv" firstAttribute="leading" secondItem="JyB-FU-2BO" secondAttribute="trailing" constant="8" id="LBK-z1-hX7"/>
                             <constraint firstItem="ufH-LC-pP0" firstAttribute="top" secondItem="voF-aK-aum" secondAttribute="bottom" constant="62" id="NGb-ND-0Jb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Mfw-iS-nZi" secondAttribute="bottom" constant="178" id="NVx-gD-cj5"/>
+                            <constraint firstItem="TJE-TC-TjE" firstAttribute="leading" secondItem="fiS-N0-Aiv" secondAttribute="leading" id="OLU-5x-dBn"/>
+                            <constraint firstItem="gYs-Do-Gnr" firstAttribute="top" secondItem="Onf-JB-ez1" secondAttribute="top" id="RVR-xk-rsL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gYs-Do-Gnr" secondAttribute="bottom" constant="273" id="Rve-nH-v5E"/>
                             <constraint firstItem="0WA-2H-Gih" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VRN-bK-eLe"/>
+                            <constraint firstItem="TJE-TC-TjE" firstAttribute="trailing" secondItem="fiS-N0-Aiv" secondAttribute="trailing" id="VSs-nb-lMy"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qOe-V0-Y0n" secondAttribute="bottom" constant="47" id="WRA-G2-zp5"/>
-                            <constraint firstItem="aSb-FA-24M" firstAttribute="leading" secondItem="voF-aK-aum" secondAttribute="trailing" constant="7" id="XOB-bc-RgF"/>
+                            <constraint firstItem="4fP-8O-Moe" firstAttribute="top" secondItem="0WA-2H-Gih" secondAttribute="bottom" constant="85" id="Xpg-o4-Hz1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4fP-8O-Moe" secondAttribute="bottom" constant="234" id="YHU-rx-Mha"/>
                             <constraint firstItem="voF-aK-aum" firstAttribute="top" secondItem="0WA-2H-Gih" secondAttribute="bottom" constant="66" id="Yjt-21-QAS"/>
-                            <constraint firstItem="Onf-JB-ez1" firstAttribute="leading" secondItem="aSb-FA-24M" secondAttribute="trailing" constant="21" id="bGQ-u0-hi5"/>
+                            <constraint firstItem="Mfw-iS-nZi" firstAttribute="trailing" secondItem="4fP-8O-Moe" secondAttribute="trailing" id="afe-sl-bye"/>
                             <constraint firstItem="Onf-JB-ez1" firstAttribute="top" secondItem="0WA-2H-Gih" secondAttribute="bottom" constant="46" id="bYp-JG-F65"/>
-                            <constraint firstItem="pHJ-l8-h1l" firstAttribute="trailing" secondItem="0KZ-fl-aAJ" secondAttribute="trailing" id="cfH-qD-rl2"/>
-                            <constraint firstItem="pHJ-l8-h1l" firstAttribute="leading" secondItem="0KZ-fl-aAJ" secondAttribute="leading" id="dtl-IS-Xgj"/>
-                            <constraint firstItem="gGT-4i-uiZ" firstAttribute="top" secondItem="pHJ-l8-h1l" secondAttribute="bottom" constant="8" id="gRv-bP-MKk"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RZb-rI-hxb" secondAttribute="bottom" constant="38" id="hDd-Lg-p0L"/>
-                            <constraint firstItem="heq-nE-aFV" firstAttribute="leading" secondItem="0KZ-fl-aAJ" secondAttribute="trailing" constant="21" id="iMS-ed-1se"/>
-                            <constraint firstItem="0KZ-fl-aAJ" firstAttribute="top" secondItem="heq-nE-aFV" secondAttribute="top" id="igt-oq-7Az"/>
-                            <constraint firstItem="RZb-rI-hxb" firstAttribute="trailing" secondItem="gGT-4i-uiZ" secondAttribute="trailing" id="ld1-kz-Mdi"/>
+                            <constraint firstItem="4fP-8O-Moe" firstAttribute="trailing" secondItem="gYs-Do-Gnr" secondAttribute="trailing" id="bez-2d-n5r"/>
+                            <constraint firstItem="Mfw-iS-nZi" firstAttribute="leading" secondItem="4fP-8O-Moe" secondAttribute="leading" id="clG-CM-cqI"/>
+                            <constraint firstItem="tvf-iY-hHm" firstAttribute="leading" secondItem="ufH-LC-pP0" secondAttribute="trailing" constant="8" id="h0C-CL-im9"/>
+                            <constraint firstItem="4fP-8O-Moe" firstAttribute="leading" secondItem="voF-aK-aum" secondAttribute="trailing" constant="8" id="hQm-zf-DFF"/>
+                            <constraint firstItem="qOe-V0-Y0n" firstAttribute="leading" secondItem="TJE-TC-TjE" secondAttribute="trailing" constant="8" id="iya-MY-kgC"/>
+                            <constraint firstItem="tvf-iY-hHm" firstAttribute="top" secondItem="4fP-8O-Moe" secondAttribute="bottom" constant="47" id="kB1-57-BDk"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0WA-2H-Gih" secondAttribute="bottom" constant="367" id="m2P-NL-fLN"/>
-                            <constraint firstItem="gGT-4i-uiZ" firstAttribute="leading" secondItem="JyB-FU-2BO" secondAttribute="trailing" constant="7" id="m3f-4x-YYm"/>
-                            <constraint firstItem="pHJ-l8-h1l" firstAttribute="top" secondItem="ujF-2F-nEN" secondAttribute="bottom" constant="53" id="nhI-5y-Ayl"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pHJ-l8-h1l" secondAttribute="bottom" constant="135" id="njD-wP-ASF"/>
-                            <constraint firstItem="RZb-rI-hxb" firstAttribute="top" secondItem="pHJ-l8-h1l" secondAttribute="bottom" constant="53" id="nll-TW-v0E"/>
                             <constraint firstItem="0WA-2H-Gih" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="ntZ-B9-NcP"/>
-                            <constraint firstItem="aSb-FA-24M" firstAttribute="top" secondItem="0WA-2H-Gih" secondAttribute="bottom" constant="45.999999999999943" id="qQt-tI-v3b"/>
-                            <constraint firstItem="gGT-4i-uiZ" firstAttribute="top" secondItem="qOe-V0-Y0n" secondAttribute="top" id="vjB-rq-UKi"/>
+                            <constraint firstItem="4fP-8O-Moe" firstAttribute="leading" secondItem="gYs-Do-Gnr" secondAttribute="leading" id="ntp-9t-KIb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fiS-N0-Aiv" secondAttribute="bottom" constant="40" id="ov9-5e-2qg"/>
+                            <constraint firstItem="fiS-N0-Aiv" firstAttribute="top" secondItem="tvf-iY-hHm" secondAttribute="bottom" constant="51" id="pvR-H6-BeF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tvf-iY-hHm" secondAttribute="bottom" constant="139" id="t2D-AQ-zFf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TJE-TC-TjE" secondAttribute="bottom" constant="79" id="uPW-nL-dvG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Onf-JB-ez1" secondAttribute="bottom" constant="241" id="zPN-GX-VtU"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ujF-2F-nEN" secondAttribute="bottom" constant="232" id="zfh-EA-aBq"/>
-                            <constraint firstItem="ujF-2F-nEN" firstAttribute="trailing" secondItem="aSb-FA-24M" secondAttribute="trailing" id="zmJ-8O-xF7"/>
+                            <constraint firstItem="Mfw-iS-nZi" firstAttribute="top" secondItem="4fP-8O-Moe" secondAttribute="bottom" constant="8" id="zrY-G8-F0n"/>
+                            <constraint firstItem="Onf-JB-ez1" firstAttribute="leading" secondItem="4fP-8O-Moe" secondAttribute="trailing" constant="8" id="zse-K0-4We"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="firstSongImage" destination="Onf-JB-ez1" id="7rs-4O-zar"/>
                         <outlet property="imagePerfil" destination="tNE-K7-vsO" id="NHH-gp-qtF"/>
-                        <outlet property="myMusicBotton" destination="5gi-yd-AmJ" id="gWM-Ee-XY2"/>
-                        <outlet property="mybottonMenu" destination="NAe-aQ-EVv" id="RNo-ox-Ehp"/>
+                        <outlet property="myButtonMenu" destination="ICQ-jw-bD4" id="ehZ-Vd-xgy"/>
+                        <outlet property="myMusicButton" destination="5gi-yd-AmJ" id="bpe-3Y-YW4"/>
                         <outlet property="secondSongImage" destination="heq-nE-aFV" id="zF1-KE-6ev"/>
                         <outlet property="thirdSongImage" destination="qOe-V0-Y0n" id="qnI-xu-HGx"/>
                     </connections>
@@ -308,9 +304,6 @@
         <image name="list.dash" catalog="system" width="128" height="85"/>
         <image name="music.note" catalog="system" width="96" height="128"/>
         <image name="person.2.fill" catalog="system" width="128" height="86"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
