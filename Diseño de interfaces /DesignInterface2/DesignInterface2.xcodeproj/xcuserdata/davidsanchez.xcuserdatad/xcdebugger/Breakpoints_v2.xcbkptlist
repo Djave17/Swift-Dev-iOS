@@ -14,40 +14,10 @@
             filePath = "DesignInterface2/Home/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
             landmarkName = "myCustomTopCell"
             landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "0C3BDAD5-3FC0-4AAB-B999-94B56D24CB92 - dc7e9d91f15588dd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "DesignInterface2.HomeViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; DesignInterface2.HomeViewController"
-                  moduleName = "DesignInterface2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/davidsanchez/Swift%20Dev%20iOS/Disen%CC%83o%20de%20interfaces%20/DesignInterface2/DesignInterface2/Home/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28">
-               </Location>
-               <Location
-                  uuid = "0C3BDAD5-3FC0-4AAB-B999-94B56D24CB92 - d553a05b7553741f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "DesignInterface2.HomeViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;DesignInterface2.HomeViewController&gt;"
-                  moduleName = "DesignInterface2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/davidsanchez/Swift%20Dev%20iOS/Disen%CC%83o%20de%20interfaces%20/DesignInterface2/DesignInterface2/Home/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

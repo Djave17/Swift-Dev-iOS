@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="DisenoDeTurismo1" customModuleProvider="target">
+            <connections>
+                <outlet property="myLoginButton" destination="wm6-ts-E1V" id="HeC-5C-Tt3"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="wtu-eN-JkA">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b2q-aL-aZd">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dOr-6p-ley">
+                                    <rect key="frame" x="77" y="67" width="239" height="193"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="193" id="64T-Yz-8BA"/>
+                                    </constraints>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium" weight="medium"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wm6-ts-E1V">
+                                    <rect key="frame" x="20" y="535" width="353" height="33"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="353" id="xtl-0t-GPa"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.048846015159999999" green="0.54833672550000001" blue="0.83021907220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="filled" title="Iniciar sesion ">
+                                        <fontDescription key="titleFontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="18"/>
+                                    </buttonConfiguration>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YJl-Iy-hHU">
+                                    <rect key="frame" x="145.66666666666666" y="576" width="101.66666666666666" height="32"/>
+                                    <color key="tintColor" red="0.048846015159999999" green="0.54833672550000001" blue="0.83021907220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="Registrarse">
+                                        <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
+                                    </buttonConfiguration>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fF9-cP-mKA">
+                                    <rect key="frame" x="99" y="495" width="195" height="32"/>
+                                    <color key="tintColor" red="0.048846015159999999" green="0.54833672550000001" blue="0.83021907220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="Olvidaste tu contraseña?">
+                                        <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
+                                    </buttonConfiguration>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.80178841359999997" green="0.95549833260000006" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="wm6-ts-E1V" secondAttribute="trailing" constant="20" symbolic="YES" id="1fN-TG-4V3"/>
+                                <constraint firstItem="fF9-cP-mKA" firstAttribute="centerX" secondItem="wm6-ts-E1V" secondAttribute="centerX" id="3Ah-UX-C3h"/>
+                                <constraint firstItem="fF9-cP-mKA" firstAttribute="centerX" secondItem="dOr-6p-ley" secondAttribute="centerX" id="4LL-zG-bgb"/>
+                                <constraint firstAttribute="height" constant="852" id="5FQ-p5-X1c"/>
+                                <constraint firstItem="dOr-6p-ley" firstAttribute="leading" secondItem="b2q-aL-aZd" secondAttribute="leading" constant="77" id="5go-MZ-HSK"/>
+                                <constraint firstItem="fF9-cP-mKA" firstAttribute="centerX" secondItem="YJl-Iy-hHU" secondAttribute="centerX" id="Ab5-pn-Rzm"/>
+                                <constraint firstItem="wm6-ts-E1V" firstAttribute="leading" secondItem="b2q-aL-aZd" secondAttribute="leading" constant="20" symbolic="YES" id="Omm-aK-YoR"/>
+                                <constraint firstItem="dOr-6p-ley" firstAttribute="top" secondItem="b2q-aL-aZd" secondAttribute="topMargin" id="Qo2-oD-QYd"/>
+                                <constraint firstItem="wm6-ts-E1V" firstAttribute="top" secondItem="fF9-cP-mKA" secondAttribute="bottom" constant="8" symbolic="YES" id="T2C-UW-wdp"/>
+                                <constraint firstItem="fF9-cP-mKA" firstAttribute="leading" secondItem="b2q-aL-aZd" secondAttribute="leading" constant="99" id="Tpz-cC-ilq"/>
+                                <constraint firstAttribute="width" constant="393" id="WwU-Xl-N5r"/>
+                                <constraint firstItem="YJl-Iy-hHU" firstAttribute="top" secondItem="wm6-ts-E1V" secondAttribute="bottom" constant="8" symbolic="YES" id="fJK-Qj-OvH"/>
+                                <constraint firstAttribute="bottom" secondItem="fF9-cP-mKA" secondAttribute="bottom" constant="325" id="iqT-wh-3JI"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="u7G-FI-Y7z"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="b2q-aL-aZd" firstAttribute="top" secondItem="wtu-eN-JkA" secondAttribute="top" id="5tK-od-Vy2"/>
+                        <constraint firstItem="b2q-aL-aZd" firstAttribute="leading" secondItem="u7G-FI-Y7z" secondAttribute="leading" id="Cai-pC-MLT"/>
+                        <constraint firstAttribute="bottom" secondItem="b2q-aL-aZd" secondAttribute="bottom" id="Cvk-o7-mTV"/>
+                        <constraint firstItem="b2q-aL-aZd" firstAttribute="trailing" secondItem="u7G-FI-Y7z" secondAttribute="trailing" id="Zs0-dG-wB5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <point key="canvasLocation" x="136.64122137404578" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Logo" width="570" height="438"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

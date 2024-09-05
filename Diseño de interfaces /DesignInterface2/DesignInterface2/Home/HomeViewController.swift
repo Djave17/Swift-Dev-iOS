@@ -11,7 +11,8 @@ class HomeViewController: UIViewController {
 
     @IBOutlet weak var topCollectionView: UICollectionView!
     
-  
+    @IBOutlet weak var buttomCollectionView: UICollectionView!
+    
     
     let myCustomTopCell: [MyTopStructCell] = [
             
@@ -25,11 +26,8 @@ class HomeViewController: UIViewController {
         ]
     
     
-    /*let myCustomBottomCell: [MyBottomStructCell] = [
-            MyBottomStructCell(bottomImage: UIImage(named: "topImage1")!, bottomTitle: "Catedral de Granada", bottomDescription: "De las mejores catedrales coloniales del mundo!"),
-            MyBottomStructCell(bottomImage: UIImage(named: "topImage2")!, bottomTitle: "Isletas de Granada", bottomDescription: "Maravilla natural creada por el volcan Mombacho!")
     
-    ]*/ 
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +37,11 @@ class HomeViewController: UIViewController {
         
         topCollectionView.dataSource = self
         topCollectionView.delegate = self
+        
+        buttomCollectionView.register(UINib(nibName: "CollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "cell2")
+        buttomCollectionView.dataSource = self
+        buttomCollectionView.delegate = self
+        
         
         
         
@@ -64,11 +67,13 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! HomeCollectionViewCell
+        let cell2 = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell
     
         
         cell.config(data: myCustomTopCell[indexPath.row])
+        
          
-        return cell
+        return cell; cell2
         
         
     }
@@ -76,6 +81,8 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print(myCustomTopCell[indexPath.row].topImage)
+        
+        
     }
     
     

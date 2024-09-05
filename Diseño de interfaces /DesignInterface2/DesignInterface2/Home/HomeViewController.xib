@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="DesignInterface2" customModuleProvider="target">
             <connections>
+                <outlet property="buttomCollectionView" destination="gEa-kD-vp5" id="OHO-Na-XE3"/>
                 <outlet property="topCollectionView" destination="ORH-gt-sxc" id="P83-xA-lN5"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -19,10 +20,6 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HGG-SW-pKo" userLabel="TopView">
-                    <rect key="frame" x="0.0" y="59" width="393" height="443"/>
-                    <color key="backgroundColor" red="0.34127309919999999" green="0.59796520679999998" blue="0.74468743680000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                </view>
                 <searchBar contentMode="redraw" searchBarStyle="minimal" text="" placeholder="Descubre Granada " translatesAutoresizingMaskIntoConstraints="NO" id="pyb-D1-Lq2">
                     <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                     <color key="backgroundColor" systemColor="lightTextColor"/>
@@ -33,22 +30,6 @@
                         <outlet property="delegate" destination="-1" id="v2m-db-A94"/>
                     </connections>
                 </searchBar>
-                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y5b-V4-mfj">
-                    <rect key="frame" x="0.0" y="500" width="393" height="318"/>
-                    <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explora hoteles de Granada!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exW-gZ-SNN">
-                            <rect key="frame" x="13" y="0.0" width="325" height="53"/>
-                            <fontDescription key="fontDescription" name="NotoSansMyanmar-Bold" family="Noto Sans Myanmar" pointSize="24"/>
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                    </subviews>
-                    <color key="backgroundColor" red="0.34127309919999999" green="0.59796520679999998" blue="0.74468743680000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <constraints>
-                        <constraint firstItem="exW-gZ-SNN" firstAttribute="top" secondItem="y5b-V4-mfj" secondAttribute="top" id="f7T-i1-Oje"/>
-                        <constraint firstItem="exW-gZ-SNN" firstAttribute="leading" secondItem="y5b-V4-mfj" secondAttribute="leading" constant="13" id="pJO-Nw-bWJ"/>
-                    </constraints>
-                </view>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ORH-gt-sxc" userLabel="TopCollectionView">
                     <rect key="frame" x="16" y="112" width="361" height="380"/>
                     <color key="backgroundColor" red="0.34127309919999999" green="0.59796520679999998" blue="0.74468743680000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -65,23 +46,37 @@
                         <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                     </collectionViewFlowLayout>
                 </collectionView>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="gEa-kD-vp5" userLabel="ButtomCollectionView">
+                    <rect key="frame" x="16" y="500" width="361" height="258"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="kqv-pQ-4W7">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4hX-vI-p4t">
+                    <rect key="frame" x="0.0" y="758" width="393" height="49"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <items>
+                        <tabBarItem title="Perfil" image="person" catalog="system" id="vQ2-5Q-TzI"/>
+                        <tabBarItem title="Settings " image="gearshape" catalog="system" id="Ae6-8y-tZR"/>
+                        <tabBarItem systemItem="more" id="hbv-bL-PLh"/>
+                    </items>
+                </tabBar>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="y5b-V4-mfj" firstAttribute="leading" secondItem="pyb-D1-Lq2" secondAttribute="leading" id="06s-ax-atN"/>
-                <constraint firstItem="y5b-V4-mfj" firstAttribute="top" secondItem="ORH-gt-sxc" secondAttribute="bottom" constant="8" symbolic="YES" id="12P-LD-C1v"/>
-                <constraint firstItem="HGG-SW-pKo" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="2wL-k6-uV1"/>
-                <constraint firstItem="HGG-SW-pKo" firstAttribute="trailing" secondItem="pyb-D1-Lq2" secondAttribute="trailing" id="7M1-jp-p8g"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ORH-gt-sxc" secondAttribute="bottom" constant="326" id="D21-Ux-Fpx"/>
                 <constraint firstItem="ORH-gt-sxc" firstAttribute="centerX" secondItem="pyb-D1-Lq2" secondAttribute="centerX" id="Dsp-7Q-zI1"/>
                 <constraint firstItem="ORH-gt-sxc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="Tf2-Yg-vSq"/>
                 <constraint firstItem="pyb-D1-Lq2" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="bDC-9z-osI"/>
                 <constraint firstItem="ORH-gt-sxc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="he3-Rk-GvO"/>
                 <constraint firstItem="pyb-D1-Lq2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hn0-oM-3Qr"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="HGG-SW-pKo" secondAttribute="bottom" constant="316" id="hyI-Kr-S5X"/>
-                <constraint firstItem="y5b-V4-mfj" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="j1T-b3-Vot"/>
-                <constraint firstItem="HGG-SW-pKo" firstAttribute="leading" secondItem="pyb-D1-Lq2" secondAttribute="leading" id="qno-0z-Ibi"/>
                 <constraint firstItem="ORH-gt-sxc" firstAttribute="top" secondItem="pyb-D1-Lq2" secondAttribute="bottom" constant="9" id="rvv-lZ-7au"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ORH-gt-sxc" secondAttribute="trailing" constant="16" id="y6Q-mr-gbw"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ORH-gt-sxc" secondAttribute="trailing" constant="16" id="zTK-G6-h7a"/>
@@ -90,6 +85,8 @@
         </view>
     </objects>
     <resources>
+        <image name="gearshape" catalog="system" width="128" height="123"/>
+        <image name="person" catalog="system" width="128" height="121"/>
         <systemColor name="lightTextColor">
             <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
