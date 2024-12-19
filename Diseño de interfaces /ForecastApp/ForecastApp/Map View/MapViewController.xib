@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MapViewController" customModule="ForecastApp" customModuleProvider="target">
+            <connections>
+                <outlet property="tabBar" destination="KgC-aR-DQS" id="tBF-Qr-Lwj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mesh-gradient" translatesAutoresizingMaskIntoConstraints="NO" id="Cg0-qc-LRI">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Managua, Nicaragua" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcQ-VP-ktB">
+                    <rect key="frame" x="90.666666666666686" y="79" width="212" height="28.666666666666671"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <color key="textColor" red="0.91082071519999996" green="0.91082071519999996" blue="0.91082071519999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="KgC-aR-DQS">
+                    <rect key="frame" x="20" y="744.66666666666663" width="353" height="60"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ij1-of-GrA">
+                            <rect key="frame" x="0.0" y="0.0" width="54.666666666666664" height="60"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="house.fill" catalog="system"/>
+                            <connections>
+                                <action selector="tapOnHomeButton:" destination="-1" eventType="touchUpInside" id="c4L-YT-Pr6"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jf1-tD-dvC">
+                            <rect key="frame" x="104.00000000000001" y="0.0" width="49.666666666666671" height="60"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system"/>
+                            <connections>
+                                <action selector="tapOnSearchButton:" destination="-1" eventType="touchUpInside" id="5Yh-vV-UmB"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPk-1H-brJ">
+                            <rect key="frame" x="203.33333333333334" y="0.0" width="49" height="60"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="bell" catalog="system"/>
+                            <connections>
+                                <action selector="tapOnNotificationsButton:" destination="-1" eventType="touchUpInside" id="cBe-jo-wON"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2d-3f-xDI">
+                            <rect key="frame" x="301.66666666666669" y="0.0" width="51.333333333333314" height="60"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="map" catalog="system"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.2212743113" green="0.2484877409" blue="0.31907754430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="jD3-is-exR"/>
+                    </constraints>
+                </stackView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map" translatesAutoresizingMaskIntoConstraints="NO" id="Eu4-5Z-Wtp">
+                    <rect key="frame" x="50" y="137.66666666666663" width="293" height="307"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="293" id="pdm-UX-B1A"/>
+                        <constraint firstAttribute="height" constant="307" id="sgw-lM-hDM"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="KgC-aR-DQS" secondAttribute="bottom" constant="13.17" id="1OM-J7-oV5"/>
+                <constraint firstItem="vcQ-VP-ktB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="GI2-yH-gbk"/>
+                <constraint firstItem="Eu4-5Z-Wtp" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="I3f-Fr-dbw"/>
+                <constraint firstItem="Eu4-5Z-Wtp" firstAttribute="top" secondItem="vcQ-VP-ktB" secondAttribute="bottom" constant="30" id="K1T-ER-cNO"/>
+                <constraint firstItem="KgC-aR-DQS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="X9w-I8-mAU"/>
+                <constraint firstItem="Cg0-qc-LRI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ezm-Og-eRt"/>
+                <constraint firstAttribute="bottom" secondItem="Cg0-qc-LRI" secondAttribute="bottom" id="nMY-7z-uIa"/>
+                <constraint firstItem="Eu4-5Z-Wtp" firstAttribute="top" secondItem="vcQ-VP-ktB" secondAttribute="bottom" constant="30" id="new-co-KFT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KgC-aR-DQS" secondAttribute="trailing" constant="20" id="qtK-yg-8JB"/>
+                <constraint firstItem="Eu4-5Z-Wtp" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="rey-Dc-goB"/>
+                <constraint firstItem="Cg0-qc-LRI" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="sXU-fG-gTQ"/>
+                <constraint firstItem="vcQ-VP-ktB" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="tQY-j0-ehy"/>
+                <constraint firstItem="Cg0-qc-LRI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="yjO-cR-3YP"/>
+            </constraints>
+            <point key="canvasLocation" x="5.343511450381679" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bell" catalog="system" width="125" height="128"/>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <image name="map" catalog="system" width="128" height="112"/>
+        <image name="map" width="1106" height="560"/>
+        <image name="mesh-gradient" width="1920" height="1080"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

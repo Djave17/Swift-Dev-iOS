@@ -83,7 +83,6 @@
 				519AE4E32C88019D009C4D74 /* LaunchScreen.storyboard */,
 				519AE4E62C88019D009C4D74 /* Info.plist */,
 				518C2FEB2C8967BC00B4FEF4 /* Settings  */,
-				51AA6B632C895DB600E81A10 /* Search */,
 				519AE4F02C8801EC009C4D74 /* Login */,
 				519AE4F12C8801F9009C4D74 /* Home */,
 			);
@@ -116,13 +115,6 @@
 				519AE4F72C880CA2009C4D74 /* HomeCollectionViewCell.xib */,
 			);
 			path = Cell;
-			sourceTree = "<group>";
-		};
-		51AA6B632C895DB600E81A10 /* Search */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
