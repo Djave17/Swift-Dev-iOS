@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXFileReference section */
@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		5167AEE92D0D0761000DECC4 /* Exceptions for "ForecastApp" folder in "ForecastApp" target */ = {
+		5167AEE92D0D0761000DECC4 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,14 +21,7 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5167AED92D0D075F000DECC4 /* ForecastApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				5167AEE92D0D0761000DECC4 /* Exceptions for "ForecastApp" folder in "ForecastApp" target */,
-			);
-			path = ForecastApp;
-			sourceTree = "<group>";
-		};
+		5167AED92D0D075F000DECC4 /* ForecastApp */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (5167AEE92D0D0761000DECC4 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = ForecastApp; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +92,7 @@
 				};
 			};
 			buildConfigurationList = 5167AED22D0D075F000DECC4 /* Build configuration list for PBXProject "ForecastApp" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -107,7 +101,6 @@
 			);
 			mainGroup = 5167AECE2D0D075F000DECC4;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 5167AED82D0D075F000DECC4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
